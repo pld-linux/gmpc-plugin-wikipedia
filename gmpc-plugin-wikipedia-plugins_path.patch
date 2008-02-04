@@ -1,0 +1,13 @@
+diff -urN gmpc-wikipedia-0.15.5.0/src/Makefile.am gmpc-wikipedia-0.15.5.0.new/src/Makefile.am
+--- gmpc-wikipedia-0.15.5.0/src/Makefile.am	2007-11-29 14:58:31.000000000 +0100
++++ gmpc-wikipedia-0.15.5.0.new/src/Makefile.am	2008-02-04 11:24:31.105930846 +0100
+@@ -1,7 +1,7 @@
+ #bin_PROGRAMS=wikiplugin_la
+-libdir=${prefix}/share/gmpc/plugins/
++pluginsdir=$(libdir)/gmpc/
+ 
+-lib_LTLIBRARIES = wikiplugin.la
++plugins_LTLIBRARIES = wikiplugin.la
+ 
+ wikiplugin_la_SOURCES=\
+ 	plugin.c
