@@ -5,18 +5,18 @@
 Summary:	Wikipedia plugin for Gnome Music Player Client
 Summary(pl.UTF-8):Wtyczka wikipedia dla odtwarzacza Gnome Music Player Client
 Name:		gmpc-plugin-wikipedia
-Version:	0.18.0
+Version:	0.18.100
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/musicpd/%{source_name}-%{version}.tar.gz
-# Source0-md5:	93c4762d9b96c0cd3ee4ddf33068afbb
-URL:		http://gmpc.wikia.com/wiki/Gnome_Music_Player_Client
+# Source0-md5:	9da599f634378fba6bd151037c2f9090
+URL:		http://gmpc.wikia.com/wiki/GMPC_PLUGIN_WIKIPEDIA
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gmpc-devel >= 0.18.0
+BuildRequires:	gmpc-devel >= 0.18.100
 BuildRequires:	gtk+2-devel >= 2:2.4
-BuildRequires:	libmpd-devel >= 0.18.0
+BuildRequires:	libmpd-devel >= 0.18.100
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
 BuildRequires:	gtk-webkit-devel
@@ -54,3 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/gmpc/plugins/*.so
+%{_datadir}/gmpc/plugins/wikipedia
