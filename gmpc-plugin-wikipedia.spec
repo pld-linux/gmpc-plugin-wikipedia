@@ -11,9 +11,11 @@ Source0:	http://downloads.sourceforge.net/musicpd/%{source_name}-%{version}.tar.
 URL:		http://gmpc.wikia.com/wiki/GMPC_PLUGIN_WIKIPEDIA
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	gmpc-devel >= 0.19.0
 BuildRequires:	gtk+2-devel >= 2:2.4
 BuildRequires:	gtk-webkit-devel
+BuildRequires:	intltool
 BuildRequires:	libmpd-devel >= 0.19.0
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
