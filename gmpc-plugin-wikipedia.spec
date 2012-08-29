@@ -3,7 +3,7 @@ Summary:	Wikipedia plugin for Gnome Music Player Client
 Summary(pl.UTF-8):	Wtyczka wikipedia dla odtwarzacza Gnome Music Player Client
 Name:		gmpc-plugin-wikipedia
 Version:	11.8.16
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://download.sarine.nl/Programs/gmpc/%{version}/%{source_name}-%{version}.tar.gz
