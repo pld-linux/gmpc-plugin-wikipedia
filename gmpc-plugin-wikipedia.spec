@@ -11,7 +11,7 @@ Source0:	http://download.sarine.nl/Programs/gmpc/%{version}/%{source_name}-%{ver
 URL:		http://gmpc.wikia.com/wiki/GMPC_PLUGIN_WIKIPEDIA
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gmpc-devel >= 0.19.0
 BuildRequires:	gtk+2-devel >= 2:2.4
 BuildRequires:	gtk-webkit-devel
